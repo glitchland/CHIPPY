@@ -149,7 +149,7 @@ func (s *Screen) validPixelIndex(x int, y int) bool {
 
 // DRAWSPRITE
 func (s *Screen) RefreshPixelBytes() {
-	s.Clear()
+
 }
 
 func (s *Screen) GetPixels() []uint8 {
